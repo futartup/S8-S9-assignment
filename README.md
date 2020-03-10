@@ -20,6 +20,6 @@ The target is to acheive 85% accuracy in any number of epochs.
 The learning rate is constant (0.01) with momentum of 0.9. All these values are maintained in conf.ipynb file.
 
 ## File Structure
-
+![Test Image](https://github.com/futartup/S8-assignment/blob/master/FS.png)
 
 
