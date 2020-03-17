@@ -15,6 +15,7 @@ The target is to acheive 85% accuracy in any number of epochs.
 1. Highest test accuracy is 85.41% within 60 epochs. 
 2. The test accuracy goes high in less number of epochs than the number of epochs in S8 submission.
 3. Albumentation is used because of which the test accuracy goes high.
+4. **GradCam is implemented which has one minor issue which will be fixed in next submission.**
 
 ## Modifications to be done.
 1. Now the learning rate is constant. The learning rate needs to be changed after some number of epochs.
