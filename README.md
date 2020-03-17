@@ -29,7 +29,7 @@ The target is to acheive 85% accuracy in any number of epochs.
 ## Accuracy
 | Model             | Acc.        |
 | ----------------- | ----------- |
-| [resnet18](https://arxiv.org/abs/1512.03385)          | 93.02%      |
+| [resnet18](https://arxiv.org/abs/1512.03385)          | 85.41%      |
 
 
 ## Learning rate adjustment
