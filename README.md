@@ -6,7 +6,7 @@ S8 assignment submission
 This repo is subjected to submission of assignment from S8. It implements resnet18 model. 
 1. S8 - The target is to acheive 85% accuracy in any number of epochs. 
 2. S9 - The target is to acheive 87% accuracy in any number of epochs.
-        Implement Albumentation 
+        ,Implement Albumentation, 
         Implement Gradcam 
 ## Results and some observations S8 submission
 1. Highest test accuracy is 84.51% for only one iteration in total number of epochs.
