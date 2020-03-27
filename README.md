@@ -59,8 +59,8 @@ Add or remove albumentation transformation and best values of model hyperparamet
 | [resnet18](https://arxiv.org/abs/1512.03385) S10         | 88.41%      |
 
 ## File Structure
-├── conf.ipynb. ( All the configuration related stuff like learning rate, momentum etc will go here )
-├── copy_test.ipynb. ( test code for model )
+├── conf.ipynb. ( All the configuration related stuff like learning rate, momentum etc will go here )\
+├── copy_test.ipynb. ( test code for model )\
 ├── data
 │   ├── cifar-10-batches-py
 │   │   ├── batches.meta
