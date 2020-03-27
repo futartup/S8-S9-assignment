@@ -1,5 +1,6 @@
 # EVA Assignment Submissions ( S8 Onwards )
-S8 assignment submission
+This is an original submission of assignments from S8(session 8) onwards. The goal is to get hands on various state of art models and get to the target accuracy assigned.
+The models that i have implemented here is resnet18 and will continously integrate later models onward. 
 
 # Train CIFAR10 with PyTorch resnet18 model
 
