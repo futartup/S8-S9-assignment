@@ -61,4 +61,11 @@ Add or remove albumentation transformation and best values of model hyperparamet
 ## File Structure
 ![Test Image](https://github.com/futartup/S8-assignment/blob/master/FS.png)
 
+## About me
+My name is Anup Gogoi and i am an computer vision and AI enthusiast. My dream is to develop products which actually augment the intelligence of mankind in specially medical domain. Human brain can do very complex things, But still it will take some time to figure out the best medicine for Coronavirus pandemic, whereas a combined effort of human and artificial intelligence can do that in very less time.
+
+My github repo is public and collaborators, suggestions are always welcomed.
+
+
+
 
