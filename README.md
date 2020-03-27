@@ -9,6 +9,17 @@ I would like to thanks all the EVA4 telegram batch members who has helped me to 
 
 I would also like to thank www.theschoolofai.in to give me this opporthunity to get hands on AI. 
 
+## Prerequisites
+- Python 3.6+
+- PyTorch 1.0+
+
+## Changes to the original file
+
+1. Found the best LR using LRfinder https://github.com/davidtvs/pytorch-lr-finder.
+2. GradCam for falsely predicted images.
+3. Added Cutout to the albumentation transformations.
+4. Uses momentum with SGD.
+5. Changed the epoch number to 50.
 
 ## Train CIFAR10 with PyTorch resnet18 model
 
@@ -32,10 +43,6 @@ This repo is subjected to submission of assignment from S8. It implements resnet
 1. Now the learning rate is constant. The learning rate needs to be changed after some number of epochs.
 2. May be some more transformations can be added to this kind of dataset.( Done )
 3. Can we decrease the number of epochs with same accuracy.
-
-## Prerequisites
-- Python 3.6+
-- PyTorch 1.0+
 
 ## Accuracy
 | Model             | Acc.        |
