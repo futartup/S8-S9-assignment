@@ -22,13 +22,20 @@ I would also like to thank www.theschoolofai.in to give me this opporthunity to 
 5. Changed the epoch number to 50.
 
 ## Approach
-### Train CIFAR10 with PyTorch resnet18 model
 
-This repo is subjected to submission of assignment from S8. It implements resnet18 model. 
-1. S8 - The target is to acheive 85% accuracy in any number of epochs. 
-2. S9 - The target is to acheive 87% accuracy in any number of epochs.
-        ,Implement Albumentation, 
-        Implement Gradcam 
+### Prepare the Albumentation transformation
+The first step is to understand the dataset. The dataset is CIFAR10 https://www.cs.toronto.edu/~kriz/cifar.html, which has  60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.
+
+My observation is that when i applied as much as albumentation(HorizontalFlip, RandomContrast, RandomGamma, RandomBrightness, GaussNoise, RGBShift, GaussianBlur, Blur, ElasticTransform, Cutout, Normalize, ToTensor) https://albumentations.readthedocs.io/en/latest/, then i am training very hard and it was getting very difficult to reach the target accuracy of 88% validation. Then i reduced the transformation to HorizontalFlip, RandomRotate90, ShiftScaleRotate, Cutout, Normalize, Normalize, ToTensor, which i consider as lighter transformation which helped me to reach the target accuracy, But i see the model is overfitting. 
+
+### Find the best LR using LRFinder
+
+Find the best Learning Rate using LRFinder module.
+
+### Repeat the process of adding transformation, momentum
+
+Add or remove albumentation transformation and best values of model hyperparameters and see on which combination it gives best accuracy.
+
 ### Results and some observations S8 submission
 1. Highest test accuracy is 84.51% for only one iteration in total number of epochs.
 2. The test accuracy keeps on oscillating in range of 83 - 84 % after a definite number of epoch.
@@ -39,6 +46,11 @@ This repo is subjected to submission of assignment from S8. It implements resnet
 2. The test accuracy goes high in less number of epochs than the number of epochs in S8 submission.
 3. Albumentation is used because of which the test accuracy goes high.
 4. GradCam is implemented.
+
+### Results and some observations S10 submission
+1. Highest test accuracy is 88.41% within 50 epochs. 
+3. Albumentation is used because of which the test accuracy goes high.
+4. GradCam is implemented on misclassified images.
 
 ### Accuracy
 | Model             | Acc.        |
