@@ -1,4 +1,4 @@
-# S8, S9-assignment
+# EVA Assignment Submissions ( S8 Onwards )
 S8 assignment submission
 
 # Train CIFAR10 with PyTorch resnet18 model
