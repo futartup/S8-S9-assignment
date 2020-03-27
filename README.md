@@ -5,6 +5,9 @@ The models that i have implemented here is resnet18 and will continously integra
 
 ## Acknowledgements
 
+I would like to thanks all the EVA4 telegram batch members who has helped me to implement the code whenever i am stuck.
+
+I would also like to thank www.theschoolofai.in to give me this opporthunity to get hands on AI. 
 
 
 ## Train CIFAR10 with PyTorch resnet18 model
