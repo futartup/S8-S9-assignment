@@ -61,33 +61,33 @@ Add or remove albumentation transformation and best values of model hyperparamet
 ## File Structure
 ├── conf.ipynb. ( All the configuration related stuff like learning rate, momentum etc will go here )\
 ├── copy_test.ipynb. ( test code for model )\
-├── data
-│   ├── cifar-10-batches-py
-│   │   ├── batches.meta
-│   │   ├── data_batch_1
-│   │   ├── data_batch_2
-│   │   ├── data_batch_3
-│   │   ├── data_batch_4
-│   │   ├── data_batch_5
-│   │   ├── readme.html
-│   │   └── test_batch
-│   └── cifar-10-python.tar.gz
-├── main.ipynb. ( Execute this file )
-├── model ( All the models will be defined here )
-│   ├── QuizDNN.ipynb
-│   ├── __init__.py
-│   ├── __pycache__
-│   │   └── __init__.cpython-36.pyc
-│   ├── custom.ipynb ( Custom model )
-│   ├── pytorch_resnet.ipynb ( Imported from Pytorch repo )
-│   ├── resnet.ipynb ( Imported from some repo i forgot the link )
-│   └── utils.ipynb ( need to remove this file )
-├── plot_train_test_graphs.ipynb ( Plot the test and train graphs )
-├── resnet_gradcam.ipynb ( Gradcam for resnet 18 model, will be changed later to fit into all models )
-├── test.ipynb ( test code for model, for some reason it is not getting imported )
-├── train.ipynb ( train code for model )
-├── transform_train_test_loader.ipynb ( All the albumentation, Pytorch transformations goes here, will be changed )
-└── utils.ipynb ( utility function like show images, plot graphs etc goes here ).
+├── data\
+│   ├── cifar-10-batches-py\
+│   │   ├── batches.meta\
+│   │   ├── data_batch_1\
+│   │   ├── data_batch_2\
+│   │   ├── data_batch_3\
+│   │   ├── data_batch_4\
+│   │   ├── data_batch_5\
+│   │   ├── readme.html\
+│   │   └── test_batch\
+│   └── cifar-10-python.tar.gz\
+├── main.ipynb. ( Execute this file )\
+├── model ( All the models will be defined here )\
+│   ├── QuizDNN.ipynb\
+│   ├── __init__.py\
+│   ├── __pycache__\
+│   │   └── __init__.cpython-36.pyc\
+│   ├── custom.ipynb ( Custom model )\
+│   ├── pytorch_resnet.ipynb ( Imported from Pytorch repo )\
+│   ├── resnet.ipynb ( Imported from some repo i forgot the link )\
+│   └── utils.ipynb ( need to remove this file )\
+├── plot_train_test_graphs.ipynb ( Plot the test and train graphs )\
+├── resnet_gradcam.ipynb ( Gradcam for resnet 18 model, will be changed later to fit into all models )\
+├── test.ipynb ( test code for model, for some reason it is not getting imported )\
+├── train.ipynb ( train code for model )\
+├── transform_train_test_loader.ipynb ( All the albumentation, Pytorch transformations goes here, will be changed )\
+└── utils.ipynb ( utility function like show images, plot graphs etc goes here ).\
 
 ## About me
 My name is Anup Gogoi and i am an computer vision and AI enthusiast. My dream is to develop products which actually augment the intelligence of mankind in specially medical domain. Human brain can do very complex things, But still it will take some time to figure out the best medicine for Coronavirus pandemic, whereas a combined effort of human and artificial intelligence can do that in very less time.
