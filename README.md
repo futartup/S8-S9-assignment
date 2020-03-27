@@ -1,8 +1,13 @@
-## EVA Assignment Submissions ( S8 Onwards )
+# EVA Assignment Submissions ( S8 Onwards )
+
 This is an original submission of assignments from S8(session 8) onwards. The goal is to get hands on various state of art models and get to the target accuracy assigned.
 The models that i have implemented here is resnet18 and will continously integrate later models onward. 
 
-# Train CIFAR10 with PyTorch resnet18 model
+## Acknowledgements
+
+
+
+## Train CIFAR10 with PyTorch resnet18 model
 
 This repo is subjected to submission of assignment from S8. It implements resnet18 model. 
 1. S8 - The target is to acheive 85% accuracy in any number of epochs. 
