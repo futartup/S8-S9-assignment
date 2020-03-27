@@ -1,4 +1,4 @@
-# EVA Assignment Submissions ( S8 Onwards )
+## EVA Assignment Submissions ( S8 Onwards )
 This is an original submission of assignments from S8(session 8) onwards. The goal is to get hands on various state of art models and get to the target accuracy assigned.
 The models that i have implemented here is resnet18 and will continously integrate later models onward. 
 
